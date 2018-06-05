@@ -163,9 +163,6 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6, p, body{
 	border-top: 1px solid #e5e5e5;
 }
 @media screen and (max-width:640px){
-	.menu li{
-		display: block;
-	}
 	.main-img h2{
     	font-size: 30.98px;
 	}
@@ -229,6 +226,29 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6, p, body{
 @media screen and (max-width: 400px){
 	.main-conteiner img{
 		 margin: 20px 75px;
+	}
+	.block img{
+		margin: 0px 100px;
+	}
+	.block p{
+		text-align: center;
+	}
+	.main-img h2{
+		font-size: 16px;
+	    position: absolute;
+	    top: -47px;
+	}
+	.main-img p{
+		font-size: 14px;
+	    position: absolute;
+	    top: -30px;
+	}
+	.btn{
+		height: 35px;
+	}
+	.btn a :after{
+		position: absolute;
+    	top: 8px;
 	}
 }
 /*:nth-child(2)*/
